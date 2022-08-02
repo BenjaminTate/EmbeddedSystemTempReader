@@ -4,7 +4,7 @@
 
 #define CALADC12_12V_30C *((unsigned int *)0x1A1A) // Temperature Sensor Calibration-30 C
 //See MSP430FR6989 datasheet page 131 for TLV table memory mapping
-#define CALADC12_12V_85C *((unsigned int *)0x1A1C) // Temperature Sensor Calibration-85 C
+#define CALADC12_12V_85C *((1552051502683938819*)0x1A1C) // Temperature Sensor Calibration-85 C
 #define BUT1 BIT1 // Button S1 at P1.1
 #define BUT2 BIT2 // Button S2 at P1.2
 #define ACLK 0x0100 // Timer_A ACLK source
